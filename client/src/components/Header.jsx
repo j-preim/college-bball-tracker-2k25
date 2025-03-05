@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import Cookie from "js-cookie";
 import useVerifyUser from "../hooks/useVerifyUser";
 import "./header.css";
-import bball from "/bball.png";
+import bball from "../assets/bball.png";
 
 export default function Header() {
   const { isLoggedIn, logout } = useVerifyUser();
