@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import teamStatsDb from "../../dist/teamStats.json";
+import teamStatsDb from "../../client/dist/teamStats.json";
 
 export const getTeamStats = (teamId) => {
   let teamStats = [];
