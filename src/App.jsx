@@ -7,8 +7,7 @@ import initSchedDb from "../public/initSched.json";
 import { getGamesForDay } from "./hooks/getGamesForDay";
 import './App.css'
 
-
-function App() {
+export default function App() {
   function verifyUser() {
     const cookie = Cookie.get("auth_cookie");
   }
@@ -172,5 +171,3 @@ function App() {
     </div>
   )
 }
-
-export default App
