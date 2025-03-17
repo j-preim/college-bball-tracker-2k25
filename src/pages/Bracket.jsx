@@ -1,5 +1,5 @@
 import React from "react";
-import bracketFull from "../assets/bracketFull.png";
+import bracketFull from "/bracketFull.png";
 
 export default function Bracket() {
   return (
