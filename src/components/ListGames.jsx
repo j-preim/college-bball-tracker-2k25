@@ -51,6 +51,7 @@ export default function ListGames(props) {
             <th>Region</th>
             <th>Tipoff</th>
             <th>Home</th>
+            <th>Spread</th>
             <th>Away</th>
             <th>Score</th>
           </tr>
@@ -77,6 +78,7 @@ export default function ListGames(props) {
                 <span className="seed">{game.home.seed}</span> &nbsp;
                 <PopoverDemo team={game.home} />
               </td>
+              <td>Test</td>
               <td
                 className={
                   game.away_points
