@@ -17,7 +17,8 @@ export default function ListGames(props) {
     const popoverRef = useRef();
 
     useEffect(() => {
-      const teamStats = getTeamStats(props.team?.id);
+      if (props.team.id) {
+      const teamStats = getTeamStats(props.team.id);
       var popover = new Popover(popoverRef.current, {
         html: true,
         content: `
@@ -34,6 +35,7 @@ export default function ListGames(props) {
         trigger: "hover",
         delay: { "show": 300, "hide": 0 },
       });
+    }
     });
 
     return (
