@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import initBettingLinesDb from "../../public/initBettingLines.json";
 
 export const getBettingInfo = (gameId) => {
-  let bettingInfo = "TBD";
+  let bettingInfo = "-TBD-";
   let finalBettingInfo;
 
   for (let i = 0; i < initBettingLinesDb.sport_events.length; i++) {
