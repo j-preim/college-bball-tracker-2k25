@@ -3,6 +3,7 @@ import initBettingLinesDb from "../../public/initBettingLines.json";
 
 export const getBettingInfo = (gameId) => {
   let bettingInfo;
+  let finalBettingInfo;
 
   for (let i = 0; i < initBettingLinesDb.sport_events.length; i++) {
     if (initBettingLinesDb.sport_events[i].uuids === gameId) {
@@ -10,10 +11,8 @@ export const getBettingInfo = (gameId) => {
     }
   }
 
-  if (!bettingInfo.includes("-")) {
-    bettingInfo = "+" + bettingInfo
-  }
+  finalBettingInfo = bettingInfo.includes("-") ? bettingInfo : "+" + bettingInfo
   
-  return bettingInfo;
+  return finalBettingInfo;
 };
 
