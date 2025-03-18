@@ -9,9 +9,12 @@ export const getBettingInfo = (gameId) => {
     if (initBettingLinesDb.sport_events[i].uuids === gameId) {
       bettingInfo = initBettingLinesDb.sport_events[i].consensus.lines[2].spread;
     }
+    else bettingInfo = "TBD"
   }
 
-  finalBettingInfo = bettingInfo?.includes("-") ? bettingInfo : "+" + bettingInfo
+  
+
+  finalBettingInfo = !bettingInfo?.includes("-") ? "+" + bettingInfo : bettingInfo
   
   return finalBettingInfo;
 };
