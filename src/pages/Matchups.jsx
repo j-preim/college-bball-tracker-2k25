@@ -9,7 +9,7 @@ export default function Matchups(props) {
   console.log(props.gameDates[0])
 
   useEffect(() => {
-    setSelectedDay();
+    setSelectedDay(props.gameDates[0]);
   }, []);
 
   function handleInputChange(e) {
