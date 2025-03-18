@@ -13,7 +13,7 @@ export const getBettingInfo = (gameId) => {
 
   
 
-  finalBettingInfo = bettingInfo?.charAt(0) = "-" ? bettingInfo : "+" + bettingInfo
+  finalBettingInfo = bettingInfo?.includes("-", 0) ? bettingInfo : "+" + bettingInfo
   
   return finalBettingInfo;
 };
