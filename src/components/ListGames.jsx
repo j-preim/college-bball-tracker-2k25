@@ -1,5 +1,6 @@
 import { useEffect, useState, useRef } from "react";
 import { getTeamStats } from "../hooks/getTeamStats";
+import { getBettingInfo } from "../hooks/getBettingInfo";
 import { Popover } from "bootstrap";
 
 export default function ListGames(props) {
@@ -51,6 +52,7 @@ export default function ListGames(props) {
             <th>Region</th>
             <th>Tipoff</th>
             <th>Home</th>
+            <th>Spread</th>
             <th>Away</th>
             <th>Score</th>
           </tr>
@@ -77,6 +79,7 @@ export default function ListGames(props) {
                 <span className="seed">{game.home.seed}</span> &nbsp;
                 <PopoverDemo team={game.home} />
               </td>
+              <td>{getBettingInfo(game.id)}</td>
               <td
                 className={
                   game.away_points
