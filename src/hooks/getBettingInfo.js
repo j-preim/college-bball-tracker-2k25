@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import initBettingLinesDb from "../../public/initBettingLines.json";
 
 export const getBettingInfo = (gameId) => {
-  let bettingInfo = "-TBD-";
+  let bettingInfo = "TBD";
   let finalBettingInfo;
 
   for (let i = 0; i < initBettingLinesDb.sport_events.length; i++) {
@@ -13,7 +13,7 @@ export const getBettingInfo = (gameId) => {
 
   
 
-  finalBettingInfo = !bettingInfo?.includes("-") ? "+" + bettingInfo : bettingInfo
+  finalBettingInfo = bettingInfo?.includes("-", 1) ? bettingInfo : "+" + bettingInfo
   
   return finalBettingInfo;
 };
