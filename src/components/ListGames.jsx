@@ -88,10 +88,10 @@ export default function ListGames(props) {
                   : ""
                 }
                 >
-              <td>{getBettingInfo(game.id)}</td>
                 <span className="seed">{game.away.seed}</span> &nbsp;
                 <PopoverDemo team={game.away} />
               </td>
+              <td>{getBettingInfo(game.id)}</td>
               <td>
                 {game.status === "inprogress" ? "In progress" : game.status === "closed" ? `${game.home_points} - ${game.away_points}` : ""}
               </td>
