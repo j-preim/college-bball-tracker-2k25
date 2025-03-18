@@ -10,7 +10,7 @@ export default function ListGames(props) {
       hour: "2-digit",
       minute: "2-digit",
     });
-    return oldTime; 
+    return oldTime;
   }
 
   function PopoverDemo(props) {
@@ -18,10 +18,10 @@ export default function ListGames(props) {
 
     useEffect(() => {
       if (props.team.id) {
-      const teamStats = getTeamStats(props.team.id);
-      var popover = new Popover(popoverRef.current, {
-        html: true,
-        content: `
+        const teamStats = getTeamStats(props.team.id);
+        var popover = new Popover(popoverRef.current, {
+          html: true,
+          content: `
         Seed: ${props.team.seed} <br />
         RPI Rank: ${teamStats.rank} <br />
         Overall Record: ${teamStats.wins}-${teamStats.losses} <br />
@@ -31,11 +31,11 @@ export default function ListGames(props) {
         Top 25 Record: ${teamStats.opponents[0].wins}-${teamStats.opponents[0].losses} <br />
         Top 50 Record: ${teamStats.opponents[1].wins}-${teamStats.opponents[1].losses} <br />
         `,
-        title: `<h6>${props.team.name}</h6>`,
-        trigger: "hover",
-        delay: { "show": 300, "hide": 0 },
-      });
-    }
+          title: `<h6>${props.team.name}</h6>`,
+          trigger: "hover",
+          delay: { show: 300, hide: 0 },
+        });
+      }
     });
 
     return (
@@ -48,7 +48,9 @@ export default function ListGames(props) {
   return (
     <>
       <table className="table table-striped table-sm">
-      <caption className="text-start text-light caption">Hover over team names for more info</caption>
+        <caption className="text-start text-light caption">
+          Hover over team names for more info
+        </caption>
         <thead className="table-head">
           <tr>
             <th>Round</th>
@@ -85,18 +87,22 @@ export default function ListGames(props) {
               <td
                 className={
                   game.away_points
-                  ? game.home_points > game.away_points
-                  ? "border border-danger table-danger"
-                  : "border border-success table-success"
-                  : ""
+                    ? game.home_points > game.away_points
+                      ? "border border-danger table-danger"
+                      : "border border-success table-success"
+                    : ""
                 }
-                >
+              >
                 <span className="seed">{game.away.seed}</span> &nbsp;
                 <PopoverDemo team={game.away} />
               </td>
               <td>{getBettingInfo(game.id)}</td>
               <td>
-                {game.status === "inprogress" ? "In progress" : game.status === "closed" ? `${game.home_points} - ${game.away_points}` : ""}
+                {game.status === "inprogress"
+                  ? "In progress"
+                  : game.status === "closed"
+                  ? `${game.home_points} - ${game.away_points}`
+                  : ""}
               </td>
             </tr>
           ))}
