@@ -22,12 +22,13 @@ export default function ListGames(props) {
         html: true,
         content: `
         Seed: ${props.team.seed} <br />
+        RPI Rank: ${teamStats.rank} <br />
         Overall Record: ${teamStats.wins}-${teamStats.losses} <br />
         Home Record: ${teamStats.home_wins}-${teamStats.home_losses} <br />
         Away Record: ${teamStats.away_wins}-${teamStats.away_losses} <br />
-        RPI Rank: ${teamStats.rank} <br />
-        RPI: ${teamStats.rpi} <br />
         Strength of Sched: ${teamStats.sos} <br />
+        Top 25 Record: ${teamStats.opponents[0].wins}-${teamStats.opponents[0].losses} <br />
+        Top 50 Record: ${teamStats.opponents[1].wins}-${teamStats.opponents[1].losses} <br />
         `,
         title: `<h6>${props.team.name}</h6>`,
         trigger: "hover",
