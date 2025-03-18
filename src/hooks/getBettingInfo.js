@@ -10,7 +10,7 @@ export const getBettingInfo = (gameId) => {
     }
   }
 
-  if (!bettingInfo.startsWith("-")) {
+  if (!bettingInfo.includes("-")) {
     bettingInfo = "+" + bettingInfo
   }
   
