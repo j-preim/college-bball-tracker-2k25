@@ -9,6 +9,10 @@ export const getBettingInfo = (gameId) => {
       bettingInfo = initBettingLinesDb.sport_events[i].consensus.lines[2].spread;
     }
   }
+
+  if (!bettingInfo.startsWith("-")) {
+    bettingInfo = "+" + bettingInfo
+  }
   
   return bettingInfo;
 };
