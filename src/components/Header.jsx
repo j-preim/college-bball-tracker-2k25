@@ -20,7 +20,7 @@ export default function Header() {
 
         <div className="d-flex col-12 col-sm-auto justify-content-evenly lato-regular navi">
           <div className="px-2 px-sm-2 px-md-3 px-lg-4">
-            {isLoggedIn === true ? (
+            {/* {isLoggedIn === true ? ( */}
               <div className="dropdown">
                 <a
                   className="dropdown-toggle navi-link"
@@ -37,18 +37,18 @@ export default function Header() {
                       My Entries
                     </a>
                   </li>
-                  <li>
+                  {/* <li>
                     <a onClick={logout} href="#" className="dropdown-item">
                       Logout
                     </a>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
-            ) : (
+            {/* ) : (
               <a href="/auth" className="navi-link">
                 Login
               </a>
-            )}
+            )} */}
           </div>
 
           <a href="/matchups" className="px-2 px-sm-2 px-md-3 px-lg-4 navi-link">
