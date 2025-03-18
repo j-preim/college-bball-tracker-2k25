@@ -52,8 +52,8 @@ export default function ListGames(props) {
             <th>Region</th>
             <th>Tipoff</th>
             <th>Home</th>
-            <th>Spread</th>
             <th>Away</th>
+            <th>Spread</th>
             <th>Score</th>
           </tr>
         </thead>
@@ -79,16 +79,16 @@ export default function ListGames(props) {
                 <span className="seed">{game.home.seed}</span> &nbsp;
                 <PopoverDemo team={game.home} />
               </td>
-              <td>{getBettingInfo(game.id)}</td>
               <td
                 className={
                   game.away_points
-                    ? game.home_points > game.away_points
-                      ? "border border-danger table-danger"
-                      : "border border-success table-success"
-                    : ""
+                  ? game.home_points > game.away_points
+                  ? "border border-danger table-danger"
+                  : "border border-success table-success"
+                  : ""
                 }
-              >
+                >
+              <td>{getBettingInfo(game.id)}</td>
                 <span className="seed">{game.away.seed}</span> &nbsp;
                 <PopoverDemo team={game.away} />
               </td>
