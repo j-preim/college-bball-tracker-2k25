@@ -8,6 +8,10 @@ export default function Matchups(props) {
   const [selectedDay, setSelectedDay] = useState(props.gameDates[0]);
   console.log(props.gameDates[0])
 
+  useEffect(() => {
+    setSelectedDay();
+  }, []);
+
   function handleInputChange(e) {
     setSelectedDay(e.target.value)
   }
