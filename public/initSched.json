@@ -2,7 +2,7 @@
     "id": "56befd3f-4024-47c4-900f-892883cc1b6b",
     "name": "NCAA Men's Division I Basketball Tournament",
     "location": "San Antonio, TX, USA",
-    "status": "scheduled",
+    "status": "inprogress",
     "parent_id": "e958cc4f-582b-4703-af7e-94b1416d1f28",
     "league": {
         "id": "cd4268ee-07aa-4c4d-a435-ec44ad2c76cb",
@@ -149,7 +149,7 @@
                     "games": [
                         {
                             "id": "6b6f93e6-82a5-49cb-a876-8924a8fefb02",
-                            "status": "scheduled",
+                            "status": "inprogress",
                             "title": "First Four - Game 1",
                             "coverage": "full",
                             "scheduled": "2025-03-18T22:40:00+00:00",
@@ -407,7 +407,7 @@
                                 "source": {
                                     "id": "6b6f93e6-82a5-49cb-a876-8924a8fefb02",
                                     "title": "First Four - Game 1",
-                                    "status": "scheduled",
+                                    "status": "inprogress",
                                     "coverage": "full",
                                     "home_team": "267d417a-8f85-4c87-a15a-068c089a74c6",
                                     "away_team": "6637ac5f-59c2-4888-af34-a86d138ccfb3",
@@ -1908,6 +1908,23 @@
                             "neutral_site": true,
                             "conference_game": false,
                             "track_on_court": true,
+                            "time_zones": {
+                                "venue": "US/Eastern"
+                            },
+                            "venue": {
+                                "id": "42cddf7a-0e1f-5f91-ae6f-c620582fdb01",
+                                "name": "Rocket Arena",
+                                "capacity": 19432,
+                                "address": "1 Center Court",
+                                "city": "Cleveland",
+                                "state": "OH",
+                                "zip": "44115",
+                                "country": "USA",
+                                "location": {
+                                    "lat": "41.496565",
+                                    "lng": "-81.688265"
+                                }
+                            },
                             "home": {
                                 "name": "South Regional - First Round - Game 8 (win)",
                                 "alias": "South Regional - First Round - Game 8 (win)",
@@ -1946,6 +1963,23 @@
                             "neutral_site": true,
                             "conference_game": false,
                             "track_on_court": true,
+                            "time_zones": {
+                                "venue": "US/Central"
+                            },
+                            "venue": {
+                                "id": "50b75324-b994-46af-a0a7-28db7bea67d0",
+                                "name": "Fiserv Forum",
+                                "capacity": 17500,
+                                "address": "1111 Vel R Phillips Avenue",
+                                "city": "Milwaukee",
+                                "state": "WI",
+                                "zip": "53203",
+                                "country": "USA",
+                                "location": {
+                                    "lat": "43.045028",
+                                    "lng": "-87.918167"
+                                }
+                            },
                             "home": {
                                 "name": "South Regional - First Round - Game 6 (win)",
                                 "alias": "South Regional - First Round - Game 6 (win)",
@@ -1983,6 +2017,23 @@
                             "neutral_site": true,
                             "conference_game": false,
                             "track_on_court": true,
+                            "time_zones": {
+                                "venue": "US/Mountain"
+                            },
+                            "venue": {
+                                "id": "1a28ef88-76c9-5bcc-b4ee-51d30ca98f4f",
+                                "name": "Ball Arena",
+                                "capacity": 19520,
+                                "address": "1000 Chopper Circle",
+                                "city": "Denver",
+                                "state": "CO",
+                                "zip": "80204",
+                                "country": "USA",
+                                "location": {
+                                    "lat": "39.749034",
+                                    "lng": "-105.007604"
+                                }
+                            },
                             "home": {
                                 "name": "South Regional - First Round - Game 4 (win)",
                                 "alias": "South Regional - First Round - Game 4 (win)",
@@ -2021,6 +2072,23 @@
                             "neutral_site": true,
                             "conference_game": false,
                             "track_on_court": true,
+                            "time_zones": {
+                                "venue": "US/Eastern"
+                            },
+                            "venue": {
+                                "id": "fc615ca5-dff2-4477-b494-8acd27938c97",
+                                "name": "Rupp Arena",
+                                "capacity": 23500,
+                                "address": "432 West Vine Street",
+                                "city": "Lexington",
+                                "state": "KY",
+                                "zip": "40506",
+                                "country": "USA",
+                                "location": {
+                                    "lat": "38.049444",
+                                    "lng": "-84.502778"
+                                }
+                            },
                             "home": {
                                 "name": "South Regional - First Round - Game 1 (win)",
                                 "alias": "South Regional - First Round - Game 1 (win)",
@@ -2068,6 +2136,23 @@
                             "neutral_site": true,
                             "conference_game": false,
                             "track_on_court": true,
+                            "time_zones": {
+                                "venue": "US/Eastern"
+                            },
+                            "venue": {
+                                "id": "5f1a51e1-bdd9-43a2-8743-c37f20265346",
+                                "name": "Lenovo Center",
+                                "capacity": 19772,
+                                "address": "1400 Edwards Mill Road",
+                                "city": "Raleigh",
+                                "state": "NC",
+                                "zip": "27607",
+                                "country": "USA",
+                                "location": {
+                                    "lat": "35.803614",
+                                    "lng": "-78.721963"
+                                }
+                            },
                             "home": {
                                 "name": "West Regional - First Round - Game 1 (win)",
                                 "alias": "West Regional - First Round - Game 1 (win)",
@@ -2106,6 +2191,23 @@
                             "neutral_site": true,
                             "conference_game": false,
                             "track_on_court": true,
+                            "time_zones": {
+                                "venue": "US/Eastern"
+                            },
+                            "venue": {
+                                "id": "94e2afc1-0309-408f-84fb-2f80cbda0357",
+                                "name": "Amica Mutual Pavilion",
+                                "capacity": 12410,
+                                "address": "1 La Salle Square",
+                                "city": "Providence",
+                                "state": "RI",
+                                "zip": "02903",
+                                "country": "USA",
+                                "location": {
+                                    "lat": "41.823648",
+                                    "lng": "-71.418282"
+                                }
+                            },
                             "home": {
                                 "name": "West Regional - First Round - Game 8 (win)",
                                 "alias": "West Regional - First Round - Game 8 (win)",
@@ -2144,6 +2246,23 @@
                             "neutral_site": true,
                             "conference_game": false,
                             "track_on_court": true,
+                            "time_zones": {
+                                "venue": "US/Pacific"
+                            },
+                            "venue": {
+                                "id": "1ed647ac-63f1-4dab-bca8-c192d96b33c6",
+                                "name": "Climate Pledge Arena",
+                                "capacity": 15354,
+                                "address": "334 1st Avenue North",
+                                "city": "Seattle",
+                                "state": "WA",
+                                "zip": "98109",
+                                "country": "USA",
+                                "location": {
+                                    "lat": "47.622342",
+                                    "lng": "-122.353788"
+                                }
+                            },
                             "home": {
                                 "name": "West Regional - First Round - Game 4 (win)",
                                 "alias": "West Regional - First Round - Game 4 (win)",
@@ -2182,6 +2301,23 @@
                             "neutral_site": true,
                             "conference_game": false,
                             "track_on_court": true,
+                            "time_zones": {
+                                "venue": "US/Central"
+                            },
+                            "venue": {
+                                "id": "406d8635-7c82-4195-a353-75da4daf71bb",
+                                "name": "INTRUST Bank Arena",
+                                "capacity": 15000,
+                                "address": "500 East Waterman Street",
+                                "city": "Wichita",
+                                "state": "KS",
+                                "zip": "67202",
+                                "country": "USA",
+                                "location": {
+                                    "lat": "37.683209",
+                                    "lng": "-97.331515"
+                                }
+                            },
                             "home": {
                                 "name": "West Regional - First Round - Game 6 (win)",
                                 "alias": "West Regional - First Round - Game 6 (win)",
@@ -2459,6 +2595,23 @@
                             "neutral_site": true,
                             "conference_game": false,
                             "track_on_court": true,
+                            "time_zones": {
+                                "venue": "US/Central"
+                            },
+                            "venue": {
+                                "id": "50b75324-b994-46af-a0a7-28db7bea67d0",
+                                "name": "Fiserv Forum",
+                                "capacity": 17500,
+                                "address": "1111 Vel R Phillips Avenue",
+                                "city": "Milwaukee",
+                                "state": "WI",
+                                "zip": "53203",
+                                "country": "USA",
+                                "location": {
+                                    "lat": "43.045028",
+                                    "lng": "-87.918167"
+                                }
+                            },
                             "home": {
                                 "name": "Midwest Regional - First Round - Game 6 (win)",
                                 "alias": "Midwest Regional - First Round - Game 6 (win)",
@@ -2496,6 +2649,23 @@
                             "neutral_site": true,
                             "conference_game": false,
                             "track_on_court": true,
+                            "time_zones": {
+                                "venue": "US/Eastern"
+                            },
+                            "venue": {
+                                "id": "94e2afc1-0309-408f-84fb-2f80cbda0357",
+                                "name": "Amica Mutual Pavilion",
+                                "capacity": 12410,
+                                "address": "1 La Salle Square",
+                                "city": "Providence",
+                                "state": "RI",
+                                "zip": "02903",
+                                "country": "USA",
+                                "location": {
+                                    "lat": "41.823648",
+                                    "lng": "-71.418282"
+                                }
+                            },
                             "home": {
                                 "name": "Midwest Regional - First Round - Game 4 (win)",
                                 "alias": "Midwest Regional - First Round - Game 4 (win)",
@@ -2534,6 +2704,23 @@
                             "neutral_site": true,
                             "conference_game": false,
                             "track_on_court": true,
+                            "time_zones": {
+                                "venue": "US/Eastern"
+                            },
+                            "venue": {
+                                "id": "fc615ca5-dff2-4477-b494-8acd27938c97",
+                                "name": "Rupp Arena",
+                                "capacity": 23500,
+                                "address": "432 West Vine Street",
+                                "city": "Lexington",
+                                "state": "KY",
+                                "zip": "40506",
+                                "country": "USA",
+                                "location": {
+                                    "lat": "38.049444",
+                                    "lng": "-84.502778"
+                                }
+                            },
                             "home": {
                                 "name": "Midwest Regional - First Round - Game 8 (win)",
                                 "alias": "Midwest Regional - First Round - Game 8 (win)",
@@ -2572,6 +2759,23 @@
                             "neutral_site": true,
                             "conference_game": false,
                             "track_on_court": true,
+                            "time_zones": {
+                                "venue": "US/Central"
+                            },
+                            "venue": {
+                                "id": "406d8635-7c82-4195-a353-75da4daf71bb",
+                                "name": "INTRUST Bank Arena",
+                                "capacity": 15000,
+                                "address": "500 East Waterman Street",
+                                "city": "Wichita",
+                                "state": "KS",
+                                "zip": "67202",
+                                "country": "USA",
+                                "location": {
+                                    "lat": "37.683209",
+                                    "lng": "-97.331515"
+                                }
+                            },
                             "home": {
                                 "name": "Midwest Regional - First Round - Game 1 (win)",
                                 "alias": "Midwest Regional - First Round - Game 1 (win)",
