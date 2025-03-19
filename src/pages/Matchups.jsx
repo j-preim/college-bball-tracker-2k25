@@ -6,7 +6,6 @@ import CountTables from "../components/CountTables";
 export default function Matchups(props) {
 
   const [selectedDay, setSelectedDay] = useState(props.todayFormatted);
-  console.log(props.gameDates[0])
 
   function handleInputChange(e) {
     setSelectedDay(e.target.value)
