@@ -200,10 +200,12 @@
                         },
                         {
                             "id": "20550a1c-27c9-4e8d-8010-886fc66b3749",
-                            "status": "inprogress",
+                            "status": "closed",
                             "title": "First Four - Game 4",
                             "coverage": "full",
                             "scheduled": "2025-03-19T01:21:00+00:00",
+                            "home_points": 68,
+                            "away_points": 95,
                             "neutral_site": true,
                             "conference_game": false,
                             "track_on_court": true,
@@ -374,7 +376,8 @@
                             "track_on_court": true,
                             "time_zones": {
                                 "venue": "US/Eastern",
-                                "home": "US/Central"
+                                "home": "US/Central",
+                                "away": "US/Central"
                             },
                             "venue": {
                                 "id": "fc615ca5-dff2-4477-b494-8acd27938c97",
@@ -657,12 +660,14 @@
                                 "seed": 6
                             },
                             "away": {
-                                "name": "First Four - Game 4 (win)",
-                                "alias": "First Four - Game 4 (win)",
+                                "name": "North Carolina Tar Heels",
+                                "alias": "UNC",
+                                "id": "e9ca48b2-00ba-41c0-a02b-6885a2da1ff1",
+                                "seed": 11,
                                 "source": {
                                     "id": "20550a1c-27c9-4e8d-8010-886fc66b3749",
                                     "title": "First Four - Game 4",
-                                    "status": "inprogress",
+                                    "status": "closed",
                                     "coverage": "full",
                                     "home_team": "e6914f16-ca37-4d2e-ba26-a425910283e2",
                                     "away_team": "e9ca48b2-00ba-41c0-a02b-6885a2da1ff1",
@@ -2007,6 +2012,7 @@
                                     "status": "scheduled",
                                     "coverage": "full",
                                     "home_team": "d7d668ec-edaa-4d6b-be25-2ebba4128643",
+                                    "away_team": "e9ca48b2-00ba-41c0-a02b-6885a2da1ff1",
                                     "scheduled": "2025-03-21T20:05:00+00:00",
                                     "outcome": "win"
                                 }
