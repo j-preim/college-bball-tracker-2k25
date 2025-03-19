@@ -116,7 +116,7 @@ export default function ListGames(props) {
               <td>{getBettingInfo(game.id)}</td>
               <td>
                 {game.status === "inprogress"
-                  ? `${getScore(game.id)}`
+                  ? "In progress"
                   : game.status === "closed"
                   ? `${game.home_points} - ${game.away_points}`
                   : ""}
