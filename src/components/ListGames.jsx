@@ -1,6 +1,7 @@
 import { useEffect, useState, useRef } from "react";
 import { getTeamStats } from "../hooks/getTeamStats";
 import { getBettingInfo } from "../hooks/getBettingInfo";
+import { getCurrentScore } from "../hooks/getCurrentScore";
 import { Popover } from "bootstrap";
 
 export default function ListGames(props) {
@@ -99,7 +100,7 @@ export default function ListGames(props) {
               <td>{getBettingInfo(game.id)}</td>
               <td>
                 {game.status === "inprogress"
-                  ? "In progress"
+                  ? `${getCurrentScore(game.id)}`
                   : game.status === "closed"
                   ? `${game.home_points} - ${game.away_points}`
                   : ""}
