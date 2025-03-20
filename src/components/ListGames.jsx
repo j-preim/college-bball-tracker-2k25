@@ -117,7 +117,7 @@ export default function ListGames(props) {
               <td>
                 {game.status === "inprogress"
                   ? "In progress"
-                  : game.status === "closed"
+                  : (game.status === "closed" || game.status === "completed")
                   ? `${game.home_points} - ${game.away_points}`
                   : ""}
               </td>
