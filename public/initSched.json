@@ -1052,10 +1052,12 @@
                         },
                         {
                             "id": "dac703ed-a894-4604-bb3d-d2b40a552240",
-                            "status": "inprogress",
+                            "status": "complete",
                             "title": "Midwest Regional - First Round - Game 2",
                             "coverage": "full",
                             "scheduled": "2025-03-20T20:35:00+00:00",
+                            "home_points": 89,
+                            "away_points": 68,
                             "neutral_site": true,
                             "conference_game": false,
                             "track_on_court": true,
@@ -2840,12 +2842,14 @@
                                 }
                             },
                             "away": {
-                                "name": "Midwest Regional - First Round - Game 2 (win)",
-                                "alias": "Midwest Regional - First Round - Game 2 (win)",
+                                "name": "Gonzaga Bulldogs",
+                                "alias": "GONZ",
+                                "id": "2f4d21f8-6d5f-48a5-abca-52a30583871a",
+                                "seed": 8,
                                 "source": {
                                     "id": "dac703ed-a894-4604-bb3d-d2b40a552240",
                                     "title": "Midwest Regional - First Round - Game 2",
-                                    "status": "inprogress",
+                                    "status": "complete",
                                     "coverage": "full",
                                     "home_team": "2f4d21f8-6d5f-48a5-abca-52a30583871a",
                                     "away_team": "4f4b0771-994c-4126-822d-7525aaa00f65",
@@ -3133,6 +3137,7 @@
                                     "status": "time-tbd",
                                     "coverage": "full",
                                     "home_team": "1f99a164-d593-4d81-85d5-0d7889d6f486",
+                                    "away_team": "2f4d21f8-6d5f-48a5-abca-52a30583871a",
                                     "scheduled": "2025-03-22T17:00:00+00:00",
                                     "outcome": "win"
                                 }
