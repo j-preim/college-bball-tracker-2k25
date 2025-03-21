@@ -73,6 +73,7 @@ export default function App() {
             0,
             bracketName.indexOf(" ")
           );
+          bracketGames[y].bracketRank = bracketRank;
           bracketGames[y].roundName = roundName;
 
           games.push(bracketGames[y]);
@@ -117,7 +118,7 @@ export default function App() {
     setRoundsData(rounds);
     setGamesData(games);
     setGameDates(gameDatesArray.sort());
-    // console.log(rounds);
+    console.log(games);
   }
 
   useEffect(() => {

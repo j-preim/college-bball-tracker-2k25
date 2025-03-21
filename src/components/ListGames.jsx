@@ -24,6 +24,7 @@ export default function ListGames(props) {
           html: true,
           content: `
         Seed: ${props.team.seed} <br />
+        Implied Rank: ${(props.team.seed * 4) - (4 - props.bracketRank)} <br />
         RPI Rank: ${teamStats.rank} <br />
         Overall Record: ${teamStats.wins}-${teamStats.losses} <br />
         Home Record: ${teamStats.home_wins}-${teamStats.home_losses} <br />
@@ -99,7 +100,7 @@ export default function ListGames(props) {
                 }
               >
                 <span className="seed">{game.home.seed}</span> &nbsp;
-                <PopoverDemo team={game.home} />
+                <PopoverDemo team={game.home} bracketRank={game.bracketRank} />
               </td>
               <td
                 className={
@@ -111,7 +112,7 @@ export default function ListGames(props) {
                 }
               >
                 <span className="seed">{game.away.seed}</span> &nbsp;
-                <PopoverDemo team={game.away} />
+                <PopoverDemo team={game.away} bracketRank={game.bracketRank} />
               </td>
               <td>{getBettingInfo(game.id)}</td>
               <td>
