@@ -1,3 +1,3 @@
 {
-  "rewrites": [{ "source": "/api", "destination": "https://api.sportradar.com/ncaamb/trial/v8/en/games/6b6f93e6-82a5-49cb-a876-8924a8fefb02/boxscore.json?api_key=luKiaKnnuM5AyqYEimwuW2YnoRK9ks4F6wYPP307" }]
+  "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }]
 }
