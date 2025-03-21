@@ -273,10 +273,12 @@
                     "games": [
                         {
                             "id": "2e73d50b-38d3-4fcd-b907-a695699259bd",
-                            "status": "scheduled",
+                            "status": "closed",
                             "title": "South Regional - First Round - Game 3",
                             "coverage": "full",
-                            "scheduled": "2025-03-21T02:00:00+00:00",
+                            "scheduled": "2025-03-21T02:09:00+00:00",
+                            "home_points": 68,
+                            "away_points": 65,
                             "neutral_site": true,
                             "conference_game": false,
                             "track_on_court": true,
@@ -431,10 +433,12 @@
                         },
                         {
                             "id": "c066781a-6092-4b96-844b-a67da2674f5b",
-                            "status": "inprogress",
+                            "status": "closed",
                             "title": "South Regional - First Round - Game 4",
                             "coverage": "full",
                             "scheduled": "2025-03-20T23:25:00+00:00",
+                            "home_points": 80,
+                            "away_points": 71,
                             "neutral_site": true,
                             "conference_game": false,
                             "track_on_court": true,
@@ -855,7 +859,7 @@
                         },
                         {
                             "id": "12b2259d-4ac9-44c1-b01d-ddaedf436936",
-                            "status": "complete",
+                            "status": "closed",
                             "title": "Midwest Regional - First Round - Game 8",
                             "coverage": "full",
                             "scheduled": "2025-03-20T22:50:00+00:00",
@@ -1005,10 +1009,12 @@
                         },
                         {
                             "id": "dde15af8-3a88-43ff-b00d-3f30359a5c36",
-                            "status": "scheduled",
+                            "status": "closed",
                             "title": "Midwest Regional - First Round - Game 7",
                             "coverage": "full",
                             "scheduled": "2025-03-21T01:25:00+00:00",
+                            "home_points": 72,
+                            "away_points": 47,
                             "neutral_site": true,
                             "conference_game": false,
                             "track_on_court": true,
@@ -1528,10 +1534,12 @@
                     "games": [
                         {
                             "id": "b8e00402-17e0-4720-bec3-307e49249089",
-                            "status": "scheduled",
+                            "status": "closed",
                             "title": "West Regional - First Round - Game 6",
                             "coverage": "full",
-                            "scheduled": "2025-03-21T02:10:00+00:00",
+                            "scheduled": "2025-03-21T02:42:00+00:00",
+                            "home_points": 82,
+                            "away_points": 72,
                             "neutral_site": true,
                             "conference_game": false,
                             "track_on_court": true,
@@ -1626,10 +1634,12 @@
                         },
                         {
                             "id": "c089908c-aa41-4f47-a6e4-dfb174556ddc",
-                            "status": "inprogress",
+                            "status": "closed",
                             "title": "West Regional - First Round - Game 7",
                             "coverage": "full",
                             "scheduled": "2025-03-20T23:10:00+00:00",
+                            "home_points": 72,
+                            "away_points": 79,
                             "neutral_site": true,
                             "conference_game": false,
                             "track_on_court": true,
@@ -1674,10 +1684,12 @@
                         },
                         {
                             "id": "2171663b-5340-4da8-9b73-fc23bd664cc2",
-                            "status": "inprogress",
+                            "status": "closed",
                             "title": "West Regional - First Round - Game 5",
                             "coverage": "full",
                             "scheduled": "2025-03-20T23:51:00+00:00",
+                            "home_points": 57,
+                            "away_points": 67,
                             "neutral_site": true,
                             "conference_game": false,
                             "track_on_court": true,
@@ -1723,10 +1735,12 @@
                         },
                         {
                             "id": "15c8d98b-f66d-4d51-a784-dfc9bdeac4c4",
-                            "status": "scheduled",
+                            "status": "closed",
                             "title": "West Regional - First Round - Game 8",
                             "coverage": "full",
-                            "scheduled": "2025-03-21T01:45:00+00:00",
+                            "scheduled": "2025-03-21T01:58:00+00:00",
+                            "home_points": 83,
+                            "away_points": 53,
                             "neutral_site": true,
                             "conference_game": false,
                             "track_on_court": true,
@@ -2046,15 +2060,17 @@
                         },
                         {
                             "id": "7ca005fe-7318-4804-878f-b84157194938",
-                            "status": "time-tbd",
+                            "status": "scheduled",
                             "title": "South Regional - Second Round - Game 2",
                             "coverage": "full",
-                            "scheduled": "2025-03-22T17:00:00+00:00",
+                            "scheduled": "2025-03-22T21:15:00+00:00",
                             "neutral_site": true,
                             "conference_game": false,
                             "track_on_court": true,
                             "time_zones": {
-                                "venue": "US/Mountain"
+                                "venue": "US/Mountain",
+                                "home": "US/Central",
+                                "away": "US/Eastern"
                             },
                             "venue": {
                                 "id": "1a28ef88-76c9-5bcc-b4ee-51d30ca98f4f",
@@ -2070,13 +2086,22 @@
                                     "lng": "-105.007604"
                                 }
                             },
+                            "broadcasts": [
+                                {
+                                    "network": "CBS",
+                                    "type": "TV",
+                                    "locale": "National"
+                                }
+                            ],
                             "home": {
-                                "name": "South Regional - First Round - Game 4 (win)",
-                                "alias": "South Regional - First Round - Game 4 (win)",
+                                "name": "Texas A&M Aggies",
+                                "alias": "TXAM",
+                                "id": "ef184799-d79b-49d9-a662-991eaf4044cd",
+                                "seed": 4,
                                 "source": {
                                     "id": "c066781a-6092-4b96-844b-a67da2674f5b",
                                     "title": "South Regional - First Round - Game 4",
-                                    "status": "inprogress",
+                                    "status": "closed",
                                     "coverage": "full",
                                     "home_team": "ef184799-d79b-49d9-a662-991eaf4044cd",
                                     "away_team": "ca478771-aa3d-4231-81e0-b70f519134fb",
@@ -2085,31 +2110,35 @@
                                 }
                             },
                             "away": {
-                                "name": "South Regional - First Round - Game 3 (win)",
-                                "alias": "South Regional - First Round - Game 3 (win)",
+                                "name": "Michigan Wolverines",
+                                "alias": "MICH",
+                                "id": "bdc2561d-f603-4fab-a262-f1d2af462277",
+                                "seed": 5,
                                 "source": {
                                     "id": "2e73d50b-38d3-4fcd-b907-a695699259bd",
                                     "title": "South Regional - First Round - Game 3",
-                                    "status": "scheduled",
+                                    "status": "closed",
                                     "coverage": "full",
                                     "home_team": "bdc2561d-f603-4fab-a262-f1d2af462277",
                                     "away_team": "55a2e70d-efe3-4aa6-b625-daab2faa4991",
-                                    "scheduled": "2025-03-21T02:00:00+00:00",
+                                    "scheduled": "2025-03-21T02:09:00+00:00",
                                     "outcome": "win"
                                 }
                             }
                         },
                         {
                             "id": "f6fa2902-60ce-48d3-8e49-8f8818b44c99",
-                            "status": "time-tbd",
+                            "status": "scheduled",
                             "title": "South Regional - Second Round - Game 1",
                             "coverage": "full",
-                            "scheduled": "2025-03-22T17:00:00+00:00",
+                            "scheduled": "2025-03-22T23:10:00+00:00",
                             "neutral_site": true,
                             "conference_game": false,
                             "track_on_court": true,
                             "time_zones": {
-                                "venue": "US/Eastern"
+                                "venue": "US/Eastern",
+                                "home": "US/Central",
+                                "away": "US/Central"
                             },
                             "venue": {
                                 "id": "fc615ca5-dff2-4477-b494-8acd27938c97",
@@ -2125,6 +2154,13 @@
                                     "lng": "-84.502778"
                                 }
                             },
+                            "broadcasts": [
+                                {
+                                    "network": "TBS/truTV",
+                                    "type": "TV",
+                                    "locale": "National"
+                                }
+                            ],
                             "home": {
                                 "name": "Auburn Tigers",
                                 "alias": "AUB",
@@ -2225,15 +2261,17 @@
                         },
                         {
                             "id": "873d7ea3-dc91-400e-a870-1352b6ef5951",
-                            "status": "time-tbd",
+                            "status": "scheduled",
                             "title": "West Regional - Second Round - Game 4",
                             "coverage": "full",
-                            "scheduled": "2025-03-22T17:00:00+00:00",
+                            "scheduled": "2025-03-22T18:40:00+00:00",
                             "neutral_site": true,
                             "conference_game": false,
                             "track_on_court": true,
                             "time_zones": {
-                                "venue": "US/Eastern"
+                                "venue": "US/Eastern",
+                                "home": "US/Eastern",
+                                "away": "US/Central"
                             },
                             "venue": {
                                 "id": "94e2afc1-0309-408f-84fb-2f80cbda0357",
@@ -2249,27 +2287,38 @@
                                     "lng": "-71.418282"
                                 }
                             },
+                            "broadcasts": [
+                                {
+                                    "network": "CBS",
+                                    "type": "TV",
+                                    "locale": "National"
+                                }
+                            ],
                             "home": {
-                                "name": "West Regional - First Round - Game 8 (win)",
-                                "alias": "West Regional - First Round - Game 8 (win)",
+                                "name": "St. John's Red Storm",
+                                "alias": "SJU",
+                                "id": "c1f4aae1-aa16-4095-aeab-10e5c2a1236a",
+                                "seed": 2,
                                 "source": {
                                     "id": "15c8d98b-f66d-4d51-a784-dfc9bdeac4c4",
                                     "title": "West Regional - First Round - Game 8",
-                                    "status": "scheduled",
+                                    "status": "closed",
                                     "coverage": "full",
                                     "home_team": "c1f4aae1-aa16-4095-aeab-10e5c2a1236a",
                                     "away_team": "68d2aa5b-714f-4652-96f3-b71e1752413f",
-                                    "scheduled": "2025-03-21T01:45:00+00:00",
+                                    "scheduled": "2025-03-21T01:58:00+00:00",
                                     "outcome": "win"
                                 }
                             },
                             "away": {
-                                "name": "West Regional - First Round - Game 7 (win)",
-                                "alias": "West Regional - First Round - Game 7 (win)",
+                                "name": "Arkansas Razorbacks",
+                                "alias": "ARK",
+                                "id": "c70c23c4-ab09-4797-a1af-792c848ab17f",
+                                "seed": 10,
                                 "source": {
                                     "id": "c089908c-aa41-4f47-a6e4-dfb174556ddc",
                                     "title": "West Regional - First Round - Game 7",
-                                    "status": "inprogress",
+                                    "status": "closed",
                                     "coverage": "full",
                                     "home_team": "fae4855b-1b64-4b40-a632-9ed345e1e952",
                                     "away_team": "c70c23c4-ab09-4797-a1af-792c848ab17f",
@@ -2335,15 +2384,16 @@
                         },
                         {
                             "id": "3415bff0-e724-4fea-8a52-cd2686715bf7",
-                            "status": "time-tbd",
+                            "status": "scheduled",
                             "title": "West Regional - Second Round - Game 3",
                             "coverage": "full",
-                            "scheduled": "2025-03-22T17:00:00+00:00",
+                            "scheduled": "2025-03-22T22:10:00+00:00",
                             "neutral_site": true,
                             "conference_game": false,
                             "track_on_court": true,
                             "time_zones": {
-                                "venue": "US/Central"
+                                "venue": "US/Central",
+                                "away": "US/Central"
                             },
                             "venue": {
                                 "id": "406d8635-7c82-4195-a353-75da4daf71bb",
@@ -2359,27 +2409,39 @@
                                     "lng": "-97.331515"
                                 }
                             },
+                            "broadcasts": [
+                                {
+                                    "network": "TNT",
+                                    "type": "TV",
+                                    "locale": "National",
+                                    "channel": "245"
+                                }
+                            ],
                             "home": {
-                                "name": "West Regional - First Round - Game 6 (win)",
-                                "alias": "West Regional - First Round - Game 6 (win)",
+                                "name": "Texas Tech Red Raiders",
+                                "alias": "TTU",
+                                "id": "f8c705b7-87d3-411a-9c8b-5124daab0469",
+                                "seed": 3,
                                 "source": {
                                     "id": "b8e00402-17e0-4720-bec3-307e49249089",
                                     "title": "West Regional - First Round - Game 6",
-                                    "status": "scheduled",
+                                    "status": "closed",
                                     "coverage": "full",
                                     "home_team": "f8c705b7-87d3-411a-9c8b-5124daab0469",
                                     "away_team": "c54279f9-3028-4663-893a-7d22482f8098",
-                                    "scheduled": "2025-03-21T02:10:00+00:00",
+                                    "scheduled": "2025-03-21T02:42:00+00:00",
                                     "outcome": "win"
                                 }
                             },
                             "away": {
-                                "name": "West Regional - First Round - Game 5 (win)",
-                                "alias": "West Regional - First Round - Game 5 (win)",
+                                "name": "Drake Bulldogs",
+                                "alias": "DRKE",
+                                "id": "aed211c3-23a4-4188-ad70-22c6eba7d765",
+                                "seed": 11,
                                 "source": {
                                     "id": "2171663b-5340-4da8-9b73-fc23bd664cc2",
                                     "title": "West Regional - First Round - Game 5",
-                                    "status": "inprogress",
+                                    "status": "closed",
                                     "coverage": "full",
                                     "home_team": "77ca152a-cb2f-48a5-97b2-492351250d94",
                                     "away_team": "aed211c3-23a4-4188-ad70-22c6eba7d765",
@@ -2510,15 +2572,17 @@
                         },
                         {
                             "id": "73e940b8-6ca7-4d6c-b872-6d9c86d554e2",
-                            "status": "time-tbd",
+                            "status": "scheduled",
                             "title": "East Regional - Second Round - Game 3",
                             "coverage": "full",
-                            "scheduled": "2025-03-22T17:00:00+00:00",
+                            "scheduled": "2025-03-22T23:45:00+00:00",
                             "neutral_site": true,
                             "conference_game": false,
                             "track_on_court": true,
                             "time_zones": {
-                                "venue": "US/Mountain"
+                                "venue": "US/Mountain",
+                                "home": "US/Central",
+                                "away": "US/Mountain"
                             },
                             "venue": {
                                 "id": "1a28ef88-76c9-5bcc-b4ee-51d30ca98f4f",
@@ -2534,6 +2598,13 @@
                                     "lng": "-105.007604"
                                 }
                             },
+                            "broadcasts": [
+                                {
+                                    "network": "CBS",
+                                    "type": "TV",
+                                    "locale": "National"
+                                }
+                            ],
                             "home": {
                                 "name": "Wisconsin Badgers",
                                 "alias": "WIS",
@@ -2689,15 +2760,17 @@
                         },
                         {
                             "id": "295af7e1-2aa7-405a-b01d-35692b4cd795",
-                            "status": "time-tbd",
+                            "status": "scheduled",
                             "title": "Midwest Regional - Second Round - Game 2",
                             "coverage": "full",
-                            "scheduled": "2025-03-22T17:00:00+00:00",
+                            "scheduled": "2025-03-22T16:10:00+00:00",
                             "neutral_site": true,
                             "conference_game": false,
                             "track_on_court": true,
                             "time_zones": {
-                                "venue": "US/Eastern"
+                                "venue": "US/Eastern",
+                                "home": "US/Eastern",
+                                "away": "US/Central"
                             },
                             "venue": {
                                 "id": "94e2afc1-0309-408f-84fb-2f80cbda0357",
@@ -2713,6 +2786,13 @@
                                     "lng": "-71.418282"
                                 }
                             },
+                            "broadcasts": [
+                                {
+                                    "network": "CBS",
+                                    "type": "TV",
+                                    "locale": "National"
+                                }
+                            ],
                             "home": {
                                 "name": "Purdue Boilermakers",
                                 "alias": "PUR",
@@ -2748,15 +2828,17 @@
                         },
                         {
                             "id": "dc69d64d-30d8-4819-80ee-32382f22e2c5",
-                            "status": "time-tbd",
+                            "status": "scheduled",
                             "title": "Midwest Regional - Second Round - Game 4",
                             "coverage": "full",
-                            "scheduled": "2025-03-22T17:00:00+00:00",
+                            "scheduled": "2025-03-23T01:40:00+00:00",
                             "neutral_site": true,
                             "conference_game": false,
                             "track_on_court": true,
                             "time_zones": {
-                                "venue": "US/Eastern"
+                                "venue": "US/Eastern",
+                                "home": "US/Eastern",
+                                "away": "US/Pacific"
                             },
                             "venue": {
                                 "id": "fc615ca5-dff2-4477-b494-8acd27938c97",
@@ -2772,6 +2854,13 @@
                                     "lng": "-84.502778"
                                 }
                             },
+                            "broadcasts": [
+                                {
+                                    "network": "TBS/truTV",
+                                    "type": "TV",
+                                    "locale": "National"
+                                }
+                            ],
                             "home": {
                                 "name": "Tennessee Volunteers",
                                 "alias": "TENN",
@@ -2780,7 +2869,7 @@
                                 "source": {
                                     "id": "12b2259d-4ac9-44c1-b01d-ddaedf436936",
                                     "title": "Midwest Regional - First Round - Game 8",
-                                    "status": "complete",
+                                    "status": "closed",
                                     "coverage": "full",
                                     "home_team": "b827dbdf-230f-4916-9703-3bb9004e26eb",
                                     "away_team": "9916713f-b243-452b-93ae-a2c3ccabf68b",
@@ -2789,12 +2878,14 @@
                                 }
                             },
                             "away": {
-                                "name": "Midwest Regional - First Round - Game 7 (win)",
-                                "alias": "Midwest Regional - First Round - Game 7 (win)",
+                                "name": "UCLA Bruins",
+                                "alias": "UCLA",
+                                "id": "ec0d6b67-4b16-4b50-92b2-1a651dae6b0f",
+                                "seed": 7,
                                 "source": {
                                     "id": "dde15af8-3a88-43ff-b00d-3f30359a5c36",
                                     "title": "Midwest Regional - First Round - Game 7",
-                                    "status": "scheduled",
+                                    "status": "closed",
                                     "coverage": "full",
                                     "home_team": "ec0d6b67-4b16-4b50-92b2-1a651dae6b0f",
                                     "away_team": "7672ff16-8436-47e6-8546-0fb5494ec7ee",
@@ -2805,15 +2896,17 @@
                         },
                         {
                             "id": "7d60bf86-e533-48f3-a1bf-eb7834ce1737",
-                            "status": "time-tbd",
+                            "status": "scheduled",
                             "title": "Midwest Regional - Second Round - Game 1",
                             "coverage": "full",
-                            "scheduled": "2025-03-22T17:00:00+00:00",
+                            "scheduled": "2025-03-23T00:40:00+00:00",
                             "neutral_site": true,
                             "conference_game": false,
                             "track_on_court": true,
                             "time_zones": {
-                                "venue": "US/Central"
+                                "venue": "US/Central",
+                                "home": "US/Central",
+                                "away": "US/Pacific"
                             },
                             "venue": {
                                 "id": "406d8635-7c82-4195-a353-75da4daf71bb",
@@ -2829,6 +2922,14 @@
                                     "lng": "-97.331515"
                                 }
                             },
+                            "broadcasts": [
+                                {
+                                    "network": "TNT",
+                                    "type": "TV",
+                                    "locale": "National",
+                                    "channel": "245"
+                                }
+                            ],
                             "home": {
                                 "name": "Houston Cougars",
                                 "alias": "HOU",
@@ -2912,11 +3013,11 @@
                                 "source": {
                                     "id": "f6fa2902-60ce-48d3-8e49-8f8818b44c99",
                                     "title": "South Regional - Second Round - Game 1",
-                                    "status": "time-tbd",
+                                    "status": "scheduled",
                                     "coverage": "full",
                                     "home_team": "0c0608b3-f349-4f5e-9a10-7e6a744dd0d2",
                                     "away_team": "7d797407-623e-476d-b299-46de4275414d",
-                                    "scheduled": "2025-03-22T17:00:00+00:00",
+                                    "scheduled": "2025-03-22T23:10:00+00:00",
                                     "outcome": "win"
                                 }
                             },
@@ -2926,9 +3027,11 @@
                                 "source": {
                                     "id": "7ca005fe-7318-4804-878f-b84157194938",
                                     "title": "South Regional - Second Round - Game 2",
-                                    "status": "time-tbd",
+                                    "status": "scheduled",
                                     "coverage": "full",
-                                    "scheduled": "2025-03-22T17:00:00+00:00",
+                                    "home_team": "ef184799-d79b-49d9-a662-991eaf4044cd",
+                                    "away_team": "bdc2561d-f603-4fab-a262-f1d2af462277",
+                                    "scheduled": "2025-03-22T21:15:00+00:00",
                                     "outcome": "win"
                                 }
                             }
@@ -3077,9 +3180,11 @@
                                 "source": {
                                     "id": "873d7ea3-dc91-400e-a870-1352b6ef5951",
                                     "title": "West Regional - Second Round - Game 4",
-                                    "status": "time-tbd",
+                                    "status": "scheduled",
                                     "coverage": "full",
-                                    "scheduled": "2025-03-22T17:00:00+00:00",
+                                    "home_team": "c1f4aae1-aa16-4095-aeab-10e5c2a1236a",
+                                    "away_team": "c70c23c4-ab09-4797-a1af-792c848ab17f",
+                                    "scheduled": "2025-03-22T18:40:00+00:00",
                                     "outcome": "win"
                                 }
                             },
@@ -3089,9 +3194,11 @@
                                 "source": {
                                     "id": "3415bff0-e724-4fea-8a52-cd2686715bf7",
                                     "title": "West Regional - Second Round - Game 3",
-                                    "status": "time-tbd",
+                                    "status": "scheduled",
                                     "coverage": "full",
-                                    "scheduled": "2025-03-22T17:00:00+00:00",
+                                    "home_team": "f8c705b7-87d3-411a-9c8b-5124daab0469",
+                                    "away_team": "aed211c3-23a4-4188-ad70-22c6eba7d765",
+                                    "scheduled": "2025-03-22T22:10:00+00:00",
                                     "outcome": "win"
                                 }
                             }
@@ -3138,11 +3245,11 @@
                                 "source": {
                                     "id": "7d60bf86-e533-48f3-a1bf-eb7834ce1737",
                                     "title": "Midwest Regional - Second Round - Game 1",
-                                    "status": "time-tbd",
+                                    "status": "scheduled",
                                     "coverage": "full",
                                     "home_team": "1f99a164-d593-4d81-85d5-0d7889d6f486",
                                     "away_team": "2f4d21f8-6d5f-48a5-abca-52a30583871a",
-                                    "scheduled": "2025-03-22T17:00:00+00:00",
+                                    "scheduled": "2025-03-23T00:40:00+00:00",
                                     "outcome": "win"
                                 }
                             },
@@ -3152,11 +3259,11 @@
                                 "source": {
                                     "id": "295af7e1-2aa7-405a-b01d-35692b4cd795",
                                     "title": "Midwest Regional - Second Round - Game 2",
-                                    "status": "time-tbd",
+                                    "status": "scheduled",
                                     "coverage": "full",
                                     "home_team": "12d7f888-675b-459f-9099-a38f771d8a95",
                                     "away_team": "d2ef641c-70e4-48bb-b40d-ac654d179205",
-                                    "scheduled": "2025-03-22T17:00:00+00:00",
+                                    "scheduled": "2025-03-22T16:10:00+00:00",
                                     "outcome": "win"
                                 }
                             }
@@ -3193,10 +3300,11 @@
                                 "source": {
                                     "id": "dc69d64d-30d8-4819-80ee-32382f22e2c5",
                                     "title": "Midwest Regional - Second Round - Game 4",
-                                    "status": "time-tbd",
+                                    "status": "scheduled",
                                     "coverage": "full",
                                     "home_team": "b827dbdf-230f-4916-9703-3bb9004e26eb",
-                                    "scheduled": "2025-03-22T17:00:00+00:00",
+                                    "away_team": "ec0d6b67-4b16-4b50-92b2-1a651dae6b0f",
+                                    "scheduled": "2025-03-23T01:40:00+00:00",
                                     "outcome": "win"
                                 }
                             },
@@ -3318,11 +3426,11 @@
                                 "source": {
                                     "id": "73e940b8-6ca7-4d6c-b872-6d9c86d554e2",
                                     "title": "East Regional - Second Round - Game 3",
-                                    "status": "time-tbd",
+                                    "status": "scheduled",
                                     "coverage": "full",
                                     "home_team": "c7569eae-5b93-4197-b204-6f3a62146b25",
                                     "away_team": "c31455b2-8a45-4248-aa8f-ce7eab1c6b02",
-                                    "scheduled": "2025-03-22T17:00:00+00:00",
+                                    "scheduled": "2025-03-22T23:45:00+00:00",
                                     "outcome": "win"
                                 }
                             }
