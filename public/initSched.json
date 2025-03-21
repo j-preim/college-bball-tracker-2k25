@@ -431,7 +431,7 @@
                         },
                         {
                             "id": "c066781a-6092-4b96-844b-a67da2674f5b",
-                            "status": "scheduled",
+                            "status": "inprogress",
                             "title": "South Regional - First Round - Game 4",
                             "coverage": "full",
                             "scheduled": "2025-03-20T23:25:00+00:00",
@@ -855,10 +855,12 @@
                         },
                         {
                             "id": "12b2259d-4ac9-44c1-b01d-ddaedf436936",
-                            "status": "scheduled",
+                            "status": "complete",
                             "title": "Midwest Regional - First Round - Game 8",
                             "coverage": "full",
                             "scheduled": "2025-03-20T22:50:00+00:00",
+                            "home_points": 77,
+                            "away_points": 62,
                             "neutral_site": true,
                             "conference_game": false,
                             "track_on_court": true,
@@ -1052,7 +1054,7 @@
                         },
                         {
                             "id": "dac703ed-a894-4604-bb3d-d2b40a552240",
-                            "status": "complete",
+                            "status": "closed",
                             "title": "Midwest Regional - First Round - Game 2",
                             "coverage": "full",
                             "scheduled": "2025-03-20T20:35:00+00:00",
@@ -1113,7 +1115,7 @@
                     "games": [
                         {
                             "id": "11773774-6849-4b68-8aac-e04695eef2ce",
-                            "status": "complete",
+                            "status": "closed",
                             "title": "East Regional - First Round - Game 5",
                             "coverage": "full",
                             "scheduled": "2025-03-20T20:05:00+00:00",
@@ -1624,7 +1626,7 @@
                         },
                         {
                             "id": "c089908c-aa41-4f47-a6e4-dfb174556ddc",
-                            "status": "scheduled",
+                            "status": "inprogress",
                             "title": "West Regional - First Round - Game 7",
                             "coverage": "full",
                             "scheduled": "2025-03-20T23:10:00+00:00",
@@ -1672,10 +1674,10 @@
                         },
                         {
                             "id": "2171663b-5340-4da8-9b73-fc23bd664cc2",
-                            "status": "scheduled",
+                            "status": "inprogress",
                             "title": "West Regional - First Round - Game 5",
                             "coverage": "full",
-                            "scheduled": "2025-03-20T23:35:00+00:00",
+                            "scheduled": "2025-03-20T23:51:00+00:00",
                             "neutral_site": true,
                             "conference_game": false,
                             "track_on_court": true,
@@ -2074,7 +2076,7 @@
                                 "source": {
                                     "id": "c066781a-6092-4b96-844b-a67da2674f5b",
                                     "title": "South Regional - First Round - Game 4",
-                                    "status": "scheduled",
+                                    "status": "inprogress",
                                     "coverage": "full",
                                     "home_team": "ef184799-d79b-49d9-a662-991eaf4044cd",
                                     "away_team": "ca478771-aa3d-4231-81e0-b70f519134fb",
@@ -2267,7 +2269,7 @@
                                 "source": {
                                     "id": "c089908c-aa41-4f47-a6e4-dfb174556ddc",
                                     "title": "West Regional - First Round - Game 7",
-                                    "status": "scheduled",
+                                    "status": "inprogress",
                                     "coverage": "full",
                                     "home_team": "fae4855b-1b64-4b40-a632-9ed345e1e952",
                                     "away_team": "c70c23c4-ab09-4797-a1af-792c848ab17f",
@@ -2377,11 +2379,11 @@
                                 "source": {
                                     "id": "2171663b-5340-4da8-9b73-fc23bd664cc2",
                                     "title": "West Regional - First Round - Game 5",
-                                    "status": "scheduled",
+                                    "status": "inprogress",
                                     "coverage": "full",
                                     "home_team": "77ca152a-cb2f-48a5-97b2-492351250d94",
                                     "away_team": "aed211c3-23a4-4188-ad70-22c6eba7d765",
-                                    "scheduled": "2025-03-20T23:35:00+00:00",
+                                    "scheduled": "2025-03-20T23:51:00+00:00",
                                     "outcome": "win"
                                 }
                             }
@@ -2556,7 +2558,7 @@
                                 "source": {
                                     "id": "11773774-6849-4b68-8aac-e04695eef2ce",
                                     "title": "East Regional - First Round - Game 5",
-                                    "status": "complete",
+                                    "status": "closed",
                                     "coverage": "full",
                                     "home_team": "c31455b2-8a45-4248-aa8f-ce7eab1c6b02",
                                     "away_team": "c1c1e6df-a383-4fbd-ba7b-32d4f9ef9518",
@@ -2771,12 +2773,14 @@
                                 }
                             },
                             "home": {
-                                "name": "Midwest Regional - First Round - Game 8 (win)",
-                                "alias": "Midwest Regional - First Round - Game 8 (win)",
+                                "name": "Tennessee Volunteers",
+                                "alias": "TENN",
+                                "id": "b827dbdf-230f-4916-9703-3bb9004e26eb",
+                                "seed": 2,
                                 "source": {
                                     "id": "12b2259d-4ac9-44c1-b01d-ddaedf436936",
                                     "title": "Midwest Regional - First Round - Game 8",
-                                    "status": "scheduled",
+                                    "status": "complete",
                                     "coverage": "full",
                                     "home_team": "b827dbdf-230f-4916-9703-3bb9004e26eb",
                                     "away_team": "9916713f-b243-452b-93ae-a2c3ccabf68b",
@@ -2849,7 +2853,7 @@
                                 "source": {
                                     "id": "dac703ed-a894-4604-bb3d-d2b40a552240",
                                     "title": "Midwest Regional - First Round - Game 2",
-                                    "status": "complete",
+                                    "status": "closed",
                                     "coverage": "full",
                                     "home_team": "2f4d21f8-6d5f-48a5-abca-52a30583871a",
                                     "away_team": "4f4b0771-994c-4126-822d-7525aaa00f65",
@@ -3191,6 +3195,7 @@
                                     "title": "Midwest Regional - Second Round - Game 4",
                                     "status": "time-tbd",
                                     "coverage": "full",
+                                    "home_team": "b827dbdf-230f-4916-9703-3bb9004e26eb",
                                     "scheduled": "2025-03-22T17:00:00+00:00",
                                     "outcome": "win"
                                 }
