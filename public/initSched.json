@@ -634,10 +634,12 @@
                         },
                         {
                             "id": "4793460a-c60c-4d89-811d-e3759c049156",
-                            "status": "inprogress",
+                            "status": "closed",
                             "title": "South Regional - First Round - Game 5",
                             "coverage": "full",
                             "scheduled": "2025-03-21T20:05:00+00:00",
+                            "home_points": 71,
+                            "away_points": 64,
                             "neutral_site": true,
                             "conference_game": false,
                             "track_on_court": true,
@@ -967,7 +969,7 @@
                             "status": "scheduled",
                             "title": "Midwest Regional - First Round - Game 6",
                             "coverage": "full",
-                            "scheduled": "2025-03-21T23:10:00+00:00",
+                            "scheduled": "2025-03-21T23:20:00+00:00",
                             "neutral_site": true,
                             "conference_game": false,
                             "track_on_court": true,
@@ -1178,7 +1180,7 @@
                             "status": "scheduled",
                             "title": "East Regional - First Round - Game 4",
                             "coverage": "full",
-                            "scheduled": "2025-03-21T23:35:00+00:00",
+                            "scheduled": "2025-03-21T23:50:00+00:00",
                             "neutral_site": true,
                             "conference_game": false,
                             "track_on_court": true,
@@ -1324,10 +1326,12 @@
                         },
                         {
                             "id": "8ecec46a-9c15-4bf6-9596-dc4002ad46ba",
-                            "status": "inprogress",
+                            "status": "closed",
                             "title": "East Regional - First Round - Game 7",
                             "coverage": "full",
                             "scheduled": "2025-03-21T19:34:00+00:00",
+                            "home_points": 59,
+                            "away_points": 56,
                             "neutral_site": true,
                             "conference_game": false,
                             "track_on_court": true,
@@ -1373,7 +1377,7 @@
                         },
                         {
                             "id": "eeae8b31-8665-4b57-9c8d-028b09374e7e",
-                            "status": "complete",
+                            "status": "closed",
                             "title": "East Regional - First Round - Game 2",
                             "coverage": "full",
                             "scheduled": "2025-03-21T16:15:00+00:00",
@@ -1423,10 +1427,12 @@
                         },
                         {
                             "id": "3a98d5a7-4b11-4342-b12a-9b623fab534e",
-                            "status": "inprogress",
+                            "status": "closed",
                             "title": "East Regional - First Round - Game 1",
                             "coverage": "full",
                             "scheduled": "2025-03-21T19:09:00+00:00",
+                            "home_points": 93,
+                            "away_points": 49,
                             "neutral_site": true,
                             "conference_game": false,
                             "track_on_court": true,
@@ -1793,7 +1799,7 @@
                         },
                         {
                             "id": "df32ec4b-7dd0-4f4b-85cf-3d2d31a87a92",
-                            "status": "scheduled",
+                            "status": "inprogress",
                             "title": "West Regional - First Round - Game 1",
                             "coverage": "full",
                             "scheduled": "2025-03-21T22:50:00+00:00",
@@ -1842,7 +1848,7 @@
                         },
                         {
                             "id": "e858f388-bb1c-4f58-8fb3-8faf93f61a35",
-                            "status": "complete",
+                            "status": "closed",
                             "title": "West Regional - First Round - Game 3",
                             "coverage": "full",
                             "scheduled": "2025-03-21T18:00:00+00:00",
@@ -1893,10 +1899,12 @@
                         },
                         {
                             "id": "2c7ff907-8502-48c3-8e10-7be83df6f7c9",
-                            "status": "scheduled",
+                            "status": "complete",
                             "title": "West Regional - First Round - Game 4",
                             "coverage": "full",
                             "scheduled": "2025-03-21T20:45:00+00:00",
+                            "home_points": 81,
+                            "away_points": 49,
                             "neutral_site": true,
                             "conference_game": false,
                             "track_on_court": true,
@@ -2056,12 +2064,14 @@
                                 }
                             },
                             "away": {
-                                "name": "South Regional - First Round - Game 5 (win)",
-                                "alias": "South Regional - First Round - Game 5 (win)",
+                                "name": "Ole Miss Rebels",
+                                "alias": "MISS",
+                                "id": "d7d668ec-edaa-4d6b-be25-2ebba4128643",
+                                "seed": 6,
                                 "source": {
                                     "id": "4793460a-c60c-4d89-811d-e3759c049156",
                                     "title": "South Regional - First Round - Game 5",
-                                    "status": "inprogress",
+                                    "status": "closed",
                                     "coverage": "full",
                                     "home_team": "d7d668ec-edaa-4d6b-be25-2ebba4128643",
                                     "away_team": "e9ca48b2-00ba-41c0-a02b-6885a2da1ff1",
@@ -2249,7 +2259,7 @@
                                 "source": {
                                     "id": "df32ec4b-7dd0-4f4b-85cf-3d2d31a87a92",
                                     "title": "West Regional - First Round - Game 1",
-                                    "status": "scheduled",
+                                    "status": "inprogress",
                                     "coverage": "full",
                                     "home_team": "912f8837-1d81-4ef9-a576-a21f271d4c64",
                                     "away_team": "a8f75c12-c4db-401f-99e3-b48209d85274",
@@ -2367,12 +2377,14 @@
                                 }
                             },
                             "home": {
-                                "name": "West Regional - First Round - Game 4 (win)",
-                                "alias": "West Regional - First Round - Game 4 (win)",
+                                "name": "Maryland Terrapins",
+                                "alias": "MD",
+                                "id": "2778d005-cc14-4e58-9bf2-3fc37bffb62f",
+                                "seed": 4,
                                 "source": {
                                     "id": "2c7ff907-8502-48c3-8e10-7be83df6f7c9",
                                     "title": "West Regional - First Round - Game 4",
-                                    "status": "scheduled",
+                                    "status": "complete",
                                     "coverage": "full",
                                     "home_team": "2778d005-cc14-4e58-9bf2-3fc37bffb62f",
                                     "away_team": "f7e6acc3-0778-4de5-940a-d88e20df1159",
@@ -2388,7 +2400,7 @@
                                 "source": {
                                     "id": "e858f388-bb1c-4f58-8fb3-8faf93f61a35",
                                     "title": "West Regional - First Round - Game 3",
-                                    "status": "complete",
+                                    "status": "closed",
                                     "coverage": "full",
                                     "home_team": "1551b3a0-6d10-4ffa-8dfa-73b56f004553",
                                     "away_team": "1a470730-f328-4fb1-8bbf-36a069e4d6b2",
@@ -2518,12 +2530,14 @@
                                 }
                             },
                             "away": {
-                                "name": "East Regional - First Round - Game 7 (win)",
-                                "alias": "East Regional - First Round - Game 7 (win)",
+                                "name": "Saint Mary's Gaels",
+                                "alias": "SMC",
+                                "id": "b18f34af-a7f1-4659-a2e5-fc11a31cd316",
+                                "seed": 7,
                                 "source": {
                                     "id": "8ecec46a-9c15-4bf6-9596-dc4002ad46ba",
                                     "title": "East Regional - First Round - Game 7",
-                                    "status": "inprogress",
+                                    "status": "closed",
                                     "coverage": "full",
                                     "home_team": "b18f34af-a7f1-4659-a2e5-fc11a31cd316",
                                     "away_team": "72971b77-1d35-40b3-bb63-4c5b29f3d22b",
@@ -2559,12 +2573,14 @@
                                 }
                             },
                             "home": {
-                                "name": "East Regional - First Round - Game 1 (win)",
-                                "alias": "East Regional - First Round - Game 1 (win)",
+                                "name": "Duke Blue Devils",
+                                "alias": "DUKE",
+                                "id": "faeb1160-5d15-4f26-99fc-c441cf21fc7f",
+                                "seed": 1,
                                 "source": {
                                     "id": "3a98d5a7-4b11-4342-b12a-9b623fab534e",
                                     "title": "East Regional - First Round - Game 1",
-                                    "status": "inprogress",
+                                    "status": "closed",
                                     "coverage": "full",
                                     "home_team": "faeb1160-5d15-4f26-99fc-c441cf21fc7f",
                                     "away_team": "5fe4a398-1699-4442-a364-305b2f0ac01e",
@@ -2580,7 +2596,7 @@
                                 "source": {
                                     "id": "eeae8b31-8665-4b57-9c8d-028b09374e7e",
                                     "title": "East Regional - First Round - Game 2",
-                                    "status": "complete",
+                                    "status": "closed",
                                     "coverage": "full",
                                     "home_team": "a1ba4b89-d97c-44e2-835f-79ad3ccaa5ae",
                                     "away_team": "db6e1cab-3fa3-4a93-a673-8b2a358ff4bf",
@@ -2693,7 +2709,7 @@
                                     "coverage": "full",
                                     "home_team": "9b166a3f-e64b-4825-bb6b-92c6f0418263",
                                     "away_team": "56fe0ab2-e4f0-47b9-8726-9ce23ebcde20",
-                                    "scheduled": "2025-03-21T23:35:00+00:00",
+                                    "scheduled": "2025-03-21T23:50:00+00:00",
                                     "outcome": "win"
                                 }
                             },
@@ -2758,7 +2774,7 @@
                                     "coverage": "full",
                                     "home_team": "2267a1f4-68f6-418b-aaf6-2aa0c4b291f1",
                                     "away_team": "6373b18c-62f6-49bc-bd4c-8959a2466516",
-                                    "scheduled": "2025-03-21T23:10:00+00:00",
+                                    "scheduled": "2025-03-21T23:20:00+00:00",
                                     "outcome": "win"
                                 }
                             },
@@ -3103,6 +3119,7 @@
                                     "status": "time-tbd",
                                     "coverage": "full",
                                     "home_team": "0e4258fa-3154-4c16-b693-adecab184c6c",
+                                    "away_team": "d7d668ec-edaa-4d6b-be25-2ebba4128643",
                                     "scheduled": "2025-03-23T17:00:00+00:00",
                                     "outcome": "win"
                                 }
@@ -3164,6 +3181,7 @@
                                     "title": "West Regional - Second Round - Game 2",
                                     "status": "time-tbd",
                                     "coverage": "full",
+                                    "home_team": "2778d005-cc14-4e58-9bf2-3fc37bffb62f",
                                     "away_team": "1a470730-f328-4fb1-8bbf-36a069e4d6b2",
                                     "scheduled": "2025-03-23T17:00:00+00:00",
                                     "outcome": "win"
@@ -3387,6 +3405,7 @@
                                     "title": "East Regional - Second Round - Game 1",
                                     "status": "time-tbd",
                                     "coverage": "full",
+                                    "home_team": "faeb1160-5d15-4f26-99fc-c441cf21fc7f",
                                     "away_team": "db6e1cab-3fa3-4a93-a673-8b2a358ff4bf",
                                     "scheduled": "2025-03-23T17:00:00+00:00",
                                     "outcome": "win"
@@ -3440,6 +3459,7 @@
                                     "status": "time-tbd",
                                     "coverage": "full",
                                     "home_team": "c2104cdc-c83d-40d2-a3cd-df986e29f5d3",
+                                    "away_team": "b18f34af-a7f1-4659-a2e5-fc11a31cd316",
                                     "scheduled": "2025-03-23T17:00:00+00:00",
                                     "outcome": "win"
                                 }
