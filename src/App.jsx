@@ -5,6 +5,7 @@ import Header from "./components/Header";
 import { Home, Matchups, Bracket, Entries, Auth } from "./pages";
 import initSchedDb from "../public/initSched.json";
 import { getGamesForDay } from "./hooks/getGamesForDay";
+import { getData } from "./hooks/getInitSched";
 import './App.css'
 
 export default function App() {
@@ -124,6 +125,7 @@ export default function App() {
   useEffect(() => {
     if ((rounds = []) && (games = [])) {
       getRounds();
+      getData();
     }
   }, []);
 
