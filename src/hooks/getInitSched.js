@@ -15,7 +15,7 @@ const apiUrl = `https://api.sportradar.us/ncaamb/trial/v8/en/tournaments/56befd3
 //     console.error("Error:", error);
 //   });
 
-async function getData() {
+export default async function getData() {
   try {
     const response = await fetch(apiUrl);
     if (!response.ok) {
