@@ -47,21 +47,21 @@ export default function ListGames(props) {
     );
   }
 
-  async function getScore(gameId) {
-    const apiKey = "luKiaKnnuM5AyqYEimwuW2YnoRK9ks4F6wYPP307";
-    const scoreUrl =
-      "https://api.sportradar.us/ncaamb/trial/v8/en/games/" +
-      gameId +
-      "/boxscore.json?api_key=" +
-      apiKey;
+  // async function getScore(gameId) {
+  //   const apiKey = "luKiaKnnuM5AyqYEimwuW2YnoRK9ks4F6wYPP307";
+  //   const scoreUrl =
+  //     "https://api.sportradar.us/ncaamb/trial/v8/en/games/" +
+  //     gameId +
+  //     "/boxscore.json?api_key=" +
+  //     apiKey;
 
-    const options = { method: "GET", headers: { accept: "application/json" } };
+  //   const options = { method: "GET", headers: { accept: "application/json" } };
 
-    fetch(scoreUrl, options)
-      .then((res) => res.json())
-      .then((res) => console.log(res))
-      .catch((err) => console.error(err));
-  }
+  //   fetch(scoreUrl, options)
+  //     .then((res) => res.json())
+  //     .then((res) => console.log(res))
+  //     .catch((err) => console.error(err));
+  // }
 
   return (
     <>
