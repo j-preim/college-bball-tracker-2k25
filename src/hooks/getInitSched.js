@@ -17,7 +17,12 @@ const apiUrl = `https://api.sportradar.us/ncaamb/trial/v8/en/tournaments/56befd3
 
 export async function getData() {
   try {
-    const response = await fetch(apiUrl);
+    const response = await fetch(apiUrl, {
+      method: "GET",
+      headers: {
+        "Content-Type": "application/json",
+      },
+    });
     if (!response.ok) {
       throw new Error(`Response status: ${response.status}`);
     }
