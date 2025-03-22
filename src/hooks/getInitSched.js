@@ -15,7 +15,7 @@ const apiKey = "luKiaKnnuM5AyqYEimwuW2YnoRK9ks4F6wYPP307";
 //     console.error("Error:", error);
 //   });
 
-const apiUrl = `/test-cors-get`;
+const apiUrl = `/api/initSched`;
 
 export async function getData() {
   try {
@@ -26,8 +26,8 @@ export async function getData() {
       throw new Error(`Response status: ${response.status}`);
     }
 
-    // const json = await response.json();
-    console.log(response);
+    const json = await response.json();
+    console.log(json);
   } catch (error) {
     console.error(error.message);
   }
