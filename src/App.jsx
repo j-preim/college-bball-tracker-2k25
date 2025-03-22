@@ -22,7 +22,7 @@ export default function App() {
   let gameDatesArray = [];
 
   const [count, setCount] = useState(0);
-  const [initSched, setinitSched] = useState(initSchedDb);
+  const [initSched, setinitSched] = useState(getData());
   const [roundsData, setRoundsData] = useState(rounds);
   const [gamesData, setGamesData] = useState(games);
   const [gameDates, setGameDates] = useState(gameDatesArray);
@@ -124,7 +124,6 @@ export default function App() {
   useEffect(() => {
     if ((rounds = []) && (games = [])) {
       getRounds();
-      getData();
     }
   }, []);
 
