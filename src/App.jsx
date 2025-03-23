@@ -34,9 +34,9 @@ export default function App() {
   async function getRounds() {
     const gameData = await getScheduleData();
     const bettingLines = await getBettingData();
-    
+
     for (let i = 0; i < bettingLines.sport_events.length; i++) {
-      lines.push(bettingLines[i]);
+      lines.push(bettingLines.sport_events[i]);
     }
 
     for (let i = 0; i < gameData.rounds.length; i++) {
