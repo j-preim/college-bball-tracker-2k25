@@ -8,7 +8,7 @@ export const getBettingInfo = (gameId, bettingData) => {
   for (let i = 0; i < bettingData.length; i++) {
     if (bettingData[i].uuids === gameId) {
       if (bettingData[i].status === "closed") {
-        bettingInfo = "Closed";
+        bettingInfo = "";
       }
       else if (bettingData[i].status === "scheduled") {
         bettingInfo = "TBD";
