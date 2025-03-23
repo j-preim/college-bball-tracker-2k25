@@ -34,6 +34,7 @@ export default function App() {
   async function getRounds() {
     const gameData = await getScheduleData();
     const bettingLines = await getBettingData();
+    lines.push(bettingLines);
     for (let i = 0; i < gameData.rounds.length; i++) {
       let round = {};
       let roundName = gameData.rounds[i].name;
