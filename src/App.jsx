@@ -32,12 +32,11 @@ export default function App() {
 
   async function getRounds() {
     const gameData = await getData();
-    initSched = gameData;
     console.log(initSched);
-    for (let i = 0; i < initSched.rounds.length; i++) {
+    for (let i = 0; i < gameData.rounds.length; i++) {
       let round = {};
-      let roundName = initSched.rounds[i].name;
-      let roundId = initSched.rounds[i].id;
+      let roundName = gameData.rounds[i].name;
+      let roundId = gameData.rounds[i].id;
       let roundBrackets;
       let roundTeams = [];
 
@@ -45,11 +44,11 @@ export default function App() {
         roundBrackets = [
           {
             bracket: { id: roundName, name: roundName },
-            games: initSched.rounds[i].games,
+            games: gameData.rounds[i].games,
           },
         ];
       } else {
-        roundBrackets = initSched.rounds[i].bracketed;
+        roundBrackets = gameData.rounds[i].bracketed;
       }
 
       let brackets = [];
