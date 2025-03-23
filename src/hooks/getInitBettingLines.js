@@ -11,9 +11,8 @@ export async function getBettingData() {
     }
 
     const json = await response.json();
-    sportEvents = json.sport_events;
     // console.log(json);
-    return sportEvents;
+    return json;
   } catch (error) {
     console.error(error.message);
   }
