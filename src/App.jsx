@@ -123,6 +123,7 @@ export default function App() {
     setGamesData(games);
     setGameDates(gameDatesArray.sort());
     setBettingData(bettingLines);
+    console.log(bettingData);
   }
 
   useEffect(() => {
