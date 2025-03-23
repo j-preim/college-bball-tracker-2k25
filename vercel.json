@@ -1,5 +1,6 @@
 {
   "rewrites": [
-    { "source": "/api/initSched", "destination": "https://api.sportradar.us/ncaamb/trial/v8/en/tournaments/56befd3f-4024-47c4-900f-892883cc1b6b/schedule.json?api_key=luKiaKnnuM5AyqYEimwuW2YnoRK9ks4F6wYPP307" }
+    { "source": "/api/initSched", "destination": "https://api.sportradar.us/ncaamb/trial/v8/en/tournaments/56befd3f-4024-47c4-900f-892883cc1b6b/schedule.json?api_key=luKiaKnnuM5AyqYEimwuW2YnoRK9ks4F6wYPP307" },
+    { "source": "/(.*)", "destination": "/index.html" }
   ]
 }
