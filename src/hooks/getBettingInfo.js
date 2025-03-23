@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-export async function getBettingInfo(gameId, bettingData) {
+export const getBettingInfo = (gameId, bettingData) => {
   let bettingInfo = "TBD";
   let finalBettingInfo;
 
