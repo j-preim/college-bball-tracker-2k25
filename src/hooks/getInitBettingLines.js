@@ -1,4 +1,4 @@
-const apiUrl = `/api/initSched`;
+const apiUrl = `/api/initBettingLines`;
 
 export async function getData() {
   try {

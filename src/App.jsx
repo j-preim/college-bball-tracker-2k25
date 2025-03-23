@@ -3,7 +3,6 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Cookie from "js-cookie";
 import Header from "./components/Header";
 import { Home, Matchups, Bracket, Entries, Auth } from "./pages";
-import initSchedDb from "../public/initSched.json";
 import { getGamesForDay } from "./hooks/getGamesForDay";
 import { getData } from "./hooks/getInitSched";
 import './App.css'

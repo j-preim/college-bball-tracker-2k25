@@ -1,13 +1,14 @@
 import { useEffect, useState } from "react";
-import initBettingLinesDb from "../../public/initBettingLines.json";
+import { getData } from "./getInitBettingLines";
 
-export const getBettingInfo = (gameId) => {
+export async function getBettingInfo(gameId) {
+  let bettingData = await getData();
   let bettingInfo = "TBD";
   let finalBettingInfo;
 
-  for (let i = 0; i < initBettingLinesDb.sport_events.length; i++) {
-    if (initBettingLinesDb.sport_events[i].uuids === gameId) {
-      initBettingLinesDb.sport_events[i].status === "live" ? bettingInfo = initBettingLinesDb.sport_events[i].consensus.lines[3].spread : bettingInfo = initBettingLinesDb.sport_events[i].consensus.lines[2].spread
+  for (let i = 0; i < bettingData.sport_events.length; i++) {
+    if (bettingData.sport_events[i].uuids === gameId) {
+      bettingData.sport_events[i].status === "live" ? bettingInfo = bettingData.sport_events[i].consensus.lines[3].spread : bettingInfo = bettingData.sport_events[i].consensus.lines[2].spread
     }
   }
 
