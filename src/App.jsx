@@ -38,7 +38,6 @@ export default function App() {
     for (let i = 0; i < bettingLines.sport_events.length; i++) {
       lines.push(bettingLines.sport_events[i]);
     }
-    console.log(lines);
 
     for (let i = 0; i < gameData.rounds.length; i++) {
       let round = {};
@@ -128,7 +127,7 @@ export default function App() {
     setRoundsData(rounds);
     setGamesData(games);
     setGameDates(gameDatesArray.sort());
-    setBettingData(bettingLines);
+    setBettingData(lines);
   }
 
   useEffect(() => {

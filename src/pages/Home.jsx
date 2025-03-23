@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 import ListGames from "../components/ListGames";
 
 export default function Home(props) {
-  console.log(props.bettingData)
 
   return (
     <>
