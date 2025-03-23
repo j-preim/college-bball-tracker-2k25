@@ -32,7 +32,7 @@ export default function App() {
 
   async function getRounds() {
     const gameData = await getData();
-    setinitSched(gameData);
+    initSched = gameData;
     console.log(initSched);
     for (let i = 0; i < initSched.rounds.length; i++) {
       let round = {};
