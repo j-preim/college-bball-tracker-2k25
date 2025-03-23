@@ -10,13 +10,13 @@ export const getBettingInfo = (gameId, bettingData) => {
       if (bettingData[i].status === "closed") {
         bettingInfo = "";
       }
-      else if (bettingData[i].status === "scheduled") {
-        bettingInfo = "TBD";
+      else if (bettingData[i].status === "not_started") {
+        bettingInfo = bettingData[i].consensus.lines[2].spread
       }
       else if (bettingData[i].status === "live") {
         bettingInfo = bettingData[i].consensus.lines[3].spread
       }
-      else bettingInfo = bettingData[i].consensus.lines[2].spread
+      else bettingInfo = "TBD"
     }
   }
 
