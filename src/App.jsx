@@ -4,7 +4,8 @@ import Cookie from "js-cookie";
 import Header from "./components/Header";
 import { Home, Matchups, Bracket, Entries, Auth } from "./pages";
 import { getGamesForDay } from "./hooks/getGamesForDay";
-import { getData } from "./hooks/getInitSched";
+import { getScheduleData } from "./hooks/getInitSched";
+import { getBettingData } from './hooks/getInitBettingLines';
 import './App.css'
 
 export default function App() {
@@ -21,7 +22,7 @@ export default function App() {
   let gameDatesArray = [];
 
   const [count, setCount] = useState(0);
-  const [initSched, setinitSched] = useState();
+  const [bettingData, setBettingData] = useState([]);
   const [roundsData, setRoundsData] = useState(rounds);
   const [gamesData, setGamesData] = useState(games);
   const [gameDates, setGameDates] = useState(gameDatesArray);
@@ -30,7 +31,8 @@ export default function App() {
   const todayFormatted = today.toLocaleDateString();
 
   async function getRounds() {
-    const gameData = await getData();
+    const gameData = await getScheduleData();
+    const bettingData = await getBettingData();
     for (let i = 0; i < gameData.rounds.length; i++) {
       let round = {};
       let roundName = gameData.rounds[i].name;
@@ -119,11 +121,13 @@ export default function App() {
     setRoundsData(rounds);
     setGamesData(games);
     setGameDates(gameDatesArray.sort());
+    setBettingData(bettingData);
   }
 
   useEffect(() => {
     if ((rounds = []) && (games = [])) {
       getRounds();
+      console.log(bettingData);
     }
   }, []);
 

@@ -1,6 +1,6 @@
 const apiUrl = `/api/initBettingLines`;
 
-export async function getData() {
+export async function getBettingData() {
   try {
     const response = await fetch(apiUrl, {
       method: "GET",
@@ -10,7 +10,7 @@ export async function getData() {
     }
 
     const json = await response.json();
-    console.log(json);
+    // console.log(json);
     return json;
   } catch (error) {
     console.error(error.message);

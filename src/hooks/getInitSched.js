@@ -1,6 +1,6 @@
 const apiUrl = `/api/initSched`;
 
-export async function getData() {
+export async function getScheduleData() {
   try {
     const response = await fetch(apiUrl, {
       method: "GET",
