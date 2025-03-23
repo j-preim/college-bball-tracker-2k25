@@ -32,7 +32,8 @@ export default function App() {
 
   async function getRounds() {
     const gameData = await getData();
-    console.log(gameData)
+    setinitSched(gameData);
+    console.log(initSched);
     for (let i = 0; i < initSched.rounds.length; i++) {
       let round = {};
       let roundName = initSched.rounds[i].name;
