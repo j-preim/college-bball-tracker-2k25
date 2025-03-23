@@ -7,7 +7,16 @@ export const getBettingInfo = (gameId, bettingData) => {
 
   for (let i = 0; i < bettingData.length; i++) {
     if (bettingData[i].uuids === gameId) {
-      bettingData[i].status === "live" ? bettingInfo = bettingData[i].consensus.lines[3].spread : bettingInfo = bettingData[i].consensus.lines[2].spread
+      if (bettingData[i].status === "closed") {
+        bettingInfo = "Closed";
+      }
+      else if (bettingData[i].status === "scheduled") {
+        bettingInfo = "TBD";
+      }
+      else if (bettingData[i].status === "live") {
+        bettingInfo = bettingData[i].consensus.lines[3].spread
+      }
+      else bettingInfo = bettingData[i].consensus.lines[2].spread
     }
   }
 
