@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 export const getBettingInfo = (gameId, bettingData) => {
   let bettingInfo = "TBD";
   let finalBettingInfo;
-  console.log(bettingData);
+  // console.log(bettingData);
 
   for (let i = 0; i < bettingData.length; i++) {
     if (bettingData[i].uuids === gameId) {
