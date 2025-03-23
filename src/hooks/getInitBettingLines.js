@@ -1,7 +1,6 @@
 const apiUrl = `/api/initBettingLines`;
 
 export async function getBettingData() {
-  let sportEvents;
   try {
     const response = await fetch(apiUrl, {
       method: "GET",
