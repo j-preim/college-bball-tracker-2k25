@@ -22,7 +22,7 @@ export default function App() {
   let gameDatesArray = [];
 
   const [count, setCount] = useState(0);
-  const [initSched, setinitSched] = useState(getData());
+  const [initSched, setinitSched] = useState();
   const [roundsData, setRoundsData] = useState(rounds);
   const [gamesData, setGamesData] = useState(games);
   const [gameDates, setGameDates] = useState(gameDatesArray);
@@ -30,7 +30,9 @@ export default function App() {
   const today = new Date();
   const todayFormatted = today.toLocaleDateString();
 
-  function getRounds() {
+  async function getRounds() {
+    const gameData = await getData();
+    console.log(gameData)
     for (let i = 0; i < initSched.rounds.length; i++) {
       let round = {};
       let roundName = initSched.rounds[i].name;
