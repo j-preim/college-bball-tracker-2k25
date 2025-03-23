@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 
 export const getBettingInfo = (gameId, bettingData) => {
-  let bettingInfo = "";
+  let bettingInfo = "TBD";
   let finalBettingInfo;
   // console.log(bettingData);
 
