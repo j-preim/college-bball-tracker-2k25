@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 
 export const getBettingInfo = (gameId, bettingData) => {
-  let bettingInfo = "TBD";
+  let bettingInfo = "";
   let finalBettingInfo;
   // console.log(bettingData);
 
@@ -12,7 +12,7 @@ export const getBettingInfo = (gameId, bettingData) => {
   }
 
 
-  finalBettingInfo = (bettingInfo?.includes("-") || bettingInfo?.includes("T")) ? bettingInfo : "+" + bettingInfo
+  finalBettingInfo = (bettingInfo?.includes("-") || bettingInfo === "") ? bettingInfo : "+" + bettingInfo
   
   return finalBettingInfo;
 };
