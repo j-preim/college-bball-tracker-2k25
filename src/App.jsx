@@ -150,6 +150,7 @@ export default function App() {
                 todayFormatted={todayFormatted}
                 gamesData={gamesData}
                 getGamesForDay={getGamesForDay}
+                bettingData={bettingData}
               />
             }
           />
@@ -173,6 +174,7 @@ export default function App() {
                 gamesData={gamesData}
                 getGamesForDay={getGamesForDay}
                 gameDates={gameDates}
+                bettingData={bettingData}
               />
             }
           />

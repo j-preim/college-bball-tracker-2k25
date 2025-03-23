@@ -13,6 +13,7 @@ export default function Home(props) {
       <div> 
         <ListGames
           gamesData={props.getGamesForDay(props.todayFormatted, props.gamesData)}
+          bettingData={props.bettingData}
         />
       </div>
     </>

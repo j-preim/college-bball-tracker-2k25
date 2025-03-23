@@ -114,7 +114,7 @@ export default function ListGames(props) {
                 <span className="seed">{game.away.seed}</span> &nbsp;
                 <PopoverDemo team={game.away} bracketRank={game.bracketRank} />
               </td>
-              <td>Test</td>
+              <td>{getBettingInfo(game.id, props.bettingData)}</td>
               <td>
                 {game.status === "inprogress"
                   ? "In progress"
