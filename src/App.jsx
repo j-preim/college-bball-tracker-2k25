@@ -20,9 +20,10 @@ export default function App() {
   let rounds = [];
   let games = [];
   let gameDatesArray = [];
+  let lines = [];
 
   const [count, setCount] = useState(0);
-  const [bettingData, setBettingData] = useState([]);
+  const [bettingData, setBettingData] = useState(lines);
   const [roundsData, setRoundsData] = useState(rounds);
   const [gamesData, setGamesData] = useState(games);
   const [gameDates, setGameDates] = useState(gameDatesArray);
@@ -32,7 +33,7 @@ export default function App() {
 
   async function getRounds() {
     const gameData = await getScheduleData();
-    const bettingData = await getBettingData();
+    const bettingLines = await getBettingData();
     for (let i = 0; i < gameData.rounds.length; i++) {
       let round = {};
       let roundName = gameData.rounds[i].name;
@@ -121,7 +122,7 @@ export default function App() {
     setRoundsData(rounds);
     setGamesData(games);
     setGameDates(gameDatesArray.sort());
-    setBettingData(bettingData);
+    setBettingData(bettingLines);
   }
 
   useEffect(() => {
