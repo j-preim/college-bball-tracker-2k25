@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { getData } from "./getInitBettingLines";
 
 export async function getBettingInfo(gameId) {
-  let bettingData = await getData();
+  // let bettingData = await getData();
   let bettingInfo = "TBD";
   let finalBettingInfo;
 
