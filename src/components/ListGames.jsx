@@ -14,6 +14,8 @@ export default function ListGames(props) {
     return oldTime;
   }
 
+  console.log(props.bettingData);
+
   function PopoverDemo(props) {
     const popoverRef = useRef();
 
